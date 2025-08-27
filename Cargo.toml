@@ -126,3 +126,8 @@ required-features = ["tcp"]
 name = "tls-server"
 path = "examples/tls-server.rs"
 required-features = ["tcp-server"]
+
+[[example]]
+name = "tcp-server-with-connection-limit"
+path = "examples/tcp-server-with-connection-limit.rs"
+required-features = ["tcp-server"]
